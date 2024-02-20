@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#9ED2C6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Wordle!!"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_23"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_25"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_31"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_32"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_33"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_34"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_35"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_41"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_42"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_43"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_44"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_45"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_51"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_52"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_53"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_54"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_55"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_61"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_62"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_63"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_64"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+            <TextView
+                android:id="@+id/tv_65"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_tv" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/button_q"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="Q"
+                android:background="@drawable/bg_tv"
+
+                />
+
+            <TextView
+                android:id="@+id/button_w"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="W"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_e"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="E"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_r"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="R"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_t"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="T"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_y"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="Y"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_u"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="U"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_i"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="I"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_o"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="O"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_p"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="P"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/button_a"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="A"
+                android:background="@drawable/bg_tv"
+
+                />
+
+            <TextView
+                android:id="@+id/button_s"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="S"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_d"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="D"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_f"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="F"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_g"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="G"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_h"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="H"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_j"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="J"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_k"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="K"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_l"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="L"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/button_enter"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="ENTER"
+                android:background="@drawable/bg_tv"
+
+                />
+
+            <TextView
+                android:id="@+id/button_z"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="Z"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_x"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="X"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_c"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="C"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_v"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="V"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_b"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="B"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_n"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="N"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_m"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="M"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/button_back"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="BACK"
+                android:background="@drawable/bg_tv"
+                android:layout_marginStart="8dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
